@@ -1,0 +1,127 @@
+/* Formatação da Estrutura */
+
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+background-color: #e9e4d8;
+}
+
+header {
+background-color: #ccd5ae;
+height: 150px;
+padding: 0px;
+background: url(images/catscoffeee.png) no-repeat;
+background-size: 20%;
+
+}
+
+main{
+background-color: #faedcd;
+width: 70%;
+float: left;
+padding: 20px;
+box-sizing: border-box;
+
+}
+
+h1 {
+    display: none;
+}
+
+aside{
+background-color: #d4a373;
+width: 30%;
+float: left;
+padding: 20px;
+box-sizing: border-box;
+
+}
+
+
+/* Componente Menu Principal  */
+.caixa-menuprincipal {
+float: right;
+
+}
+
+.caixa-menuprincipal ul{
+list-style-type: none;
+}
+
+.caixa-menuprincipal ul li{
+    display: inline-block;
+}
+
+.caixa-menuprincipal ul li a{
+    text-decoration:none;
+    color: black;
+    background-color:#e9edc9;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Componente Postagem  */
+.caixa-post {
+margin-bottom: 20px;
+clear: both;
+}
+
+.caixa-post img {
+    display: block;
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    }
+
+ .caixa-post h4 {
+  font-size: 70%;
+  color: darkolivegreen;
+  margin: 5px 0;
+
+    }
+
+    .caixa-post h4 span:nth-child(3){
+background-color: #d4a373;
+color: #e9edc9;
+padding: 3px;
+border-radius: 5px;
+    }
+
+    .caixa-post p {
+    font-size: 80%;
+    color: darkolivegreen;
+    }
+
+/* Componente Pesquisa  */
+.caixa-pesquisa {
+margin-bottom: 20px;
+}
+
+/* Componente Menu Principal  */
+.caixa-menuprincipal {
+
+}
+
+.caixa-categoria{
+
+}
+
+.caixa-categoria ul{
+    list-style-type: none;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.caixa-categoria ul li a{
+color: #7f5539;
+text-decoration: none;
+}
+
+.formulario{
+    border-color: #7f5539;
+}
